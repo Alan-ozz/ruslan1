@@ -1,0 +1,77 @@
+:ROOT {
+    --green: #044d04;
+    --white: #FFFFFF;
+    --black: #000;
+    --line:#943c3c;
+    --flower1: url('img\чбвишня.gif');
+    --flower2: url('img\розовыйцветок.gif');
+}
+
+
+body {
+    font-size: 30px;
+    background: var(--bg);
+    color: var(--fontColor);
+    font-family: helvetica;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-image: url('img\чбвишня.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+
+
+li {
+    list-style: circle;
+}
+
+.list {
+    list-style: square;
+}
+
+
+.light-theme {
+    --bg: var(--white) ;
+    --fontColor: var(--black) ;
+    --btnBg: var(--black) ;
+    --btnFontColor: var(--white)
+}
+.dark-theme {
+    --bg: var(--line) ;
+    --fontColor: var(--black);
+    --btnBg: var(--white) ;
+    --btnFontColor: var(--black) ;
+}
+
+
+.btn {
+    position: absolut;
+    top: 20px;
+    left: 25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
+
+
+p, b {
+    text-align: center;
+}
+
+ ol {
+    max-width: 600px;
+    margin: 0 auto;
+    padding-left: 400px;
+ }
+ li {
+    text-align: left;
+ }
