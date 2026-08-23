@@ -25,8 +25,6 @@ body {
 
 }
 
-
-
 li {
     list-style: circle;
 }
@@ -76,8 +74,4 @@ li {
         max-width: 100%;
         padding-left: 16px;
     }
- }
-    max-width: 600px;
-    margin: 0 auto;
-    padding-left: 400px;
  }
