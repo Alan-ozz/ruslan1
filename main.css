@@ -67,6 +67,10 @@ p, b {
     text-align: center;
 }
 
+li {
+    text-align: left;
+ }
+
 @media (max-width: 768px) {
     ol {
         max-width: 100%;
